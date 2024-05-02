@@ -1,0 +1,19 @@
+{
+    "build": { "dockerfile": "Dockerfile" },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "james-yu.latex-workshop",
+                "valentjn.vscode-ltex",
+                "donjayamanne.githistory"
+            ],
+            "settings": {
+                "ltex.language": "de-DE",
+                "latex-workshop.linting.run": "onType",
+                "latex-workshop.linting.chktex.enabled": true,
+                "latex-workshop.latex.autoBuild.run": "onSave",
+                "editor.formatOnSave": true
+            }
+        }
+    }
+}
